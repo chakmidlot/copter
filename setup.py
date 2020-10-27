@@ -11,7 +11,7 @@ setup(name='copter',
       packages=find_packages(exclude=['contrib', 'docs', 'tests']),
       install_requires=[
           'pyperclip==1.7.0',
-          'cryptography==2.8',
+          'cryptography==3.2',
           'cffi==1.13.1'
       ],
       entry_points={
